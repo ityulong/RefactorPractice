@@ -45,8 +45,8 @@ public class Customer {
     }
 
 
-    private double getTotalFrequentPoint(){
-        double result = 0;
+    private int getTotalFrequentPoint(){
+        int result = 0;
         Enumeration datas = rentals.elements();
         while (datas.hasMoreElements()) {
             Rental rental = (Rental) datas.nextElement();
